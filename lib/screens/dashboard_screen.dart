@@ -13,23 +13,14 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  // Dummy data sederhana
   final List<Map<String, dynamic>> _tasks = [
     {
-      'title': 'Setup Flutter clean architecture',
-      'category': 'Mobile Programming',
+      'title': 'Tugas Mobile Pertemuan 4',
+      'category': 'Academic',
       'isCompleted': true,
     },
-    {
-      'title': 'Implement CustomPrimaryButton',
-      'category': 'UI Component',
-      'isCompleted': false,
-    },
-    {
-      'title': 'Review tugas dengan dosen',
-      'category': 'Academic',
-      'isCompleted': false,
-    },
+    {'title': 'Tugas E-Commerce', 'category': 'Academic', 'isCompleted': false},
+    {'title': 'Lari 5KM', 'category': 'Health', 'isCompleted': false},
   ];
 
   @override
